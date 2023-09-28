@@ -19,54 +19,69 @@
             color: white;
             font-family: 'Poppins', sans-serif;
         }
-        nav{
+
+        nav {
             display: flex;
             justify-content: space-around;
             align-items: center;
             height: 60px;
             background-color: rgb(17, 17, 128);
         }
-        nav ul{
+
+        nav ul {
             display: flex;
-            justify-content: center;           
+            justify-content: center;
         }
-        nav ul li{
+
+        nav ul li {
             list-style: none;
             margin: 0 23px;
         }
-        nav ul li a{
+
+        nav ul li a {
             text-decoration: none;
             color: white;
         }
-        nav ul li a:hover{
+
+        nav ul li a:hover {
             color: rgb(153, 153, 226);
             font-size: 1.2rem;
         }
-        
-        .left{
+
+        .left {
             font-size: 1.5rem;
         }
-        .firstSection{
+
+        .firstSection {
             display: flex;
             justify-content: space-around;
             align-items: center;
             margin: 80px 0;
-            
+
         }
-        .firstSection >div{
+
+        .firstSection>div {
             width: 30%;
         }
-        .leftSection{
+
+        .leftSection {
             font-size: 2rem;
         }
-        .rightSection img{
-            width: 90%;  
+
+        .rightSection img {
+            width: 90%;
         }
-        .purple{
+
+        .purple {
             color: rgb(153, 96, 206);
         }
-        #element{
+
+        #element {
             color: rgb(153, 96, 206);
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
         }
     </style>
 </head>
@@ -78,10 +93,14 @@
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/"><li>About</a></li>
-                    <li><a href="/"><li>Services</a></li>
-                    <li><a href="/"><li>Projects</a></li>
-                    <li><a href="/"><li>Contact Me</a></li>
+                    <li><a href="/">
+                    <li>About</a></li>
+                    <li><a href="/">
+                    <li>Services</a></li>
+                    <li><a href="/">
+                    <li>Projects</a></li>
+                    <li><a href="/">
+                    <li>Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -98,15 +117,18 @@
                 <img src="developer.png" alt="">
             </div>
         </section>
+        <section class="secondSection">
+            <h1>Past Experience</h1>
+        </section>
 
     </main>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['<i>Web Developer</i> ', 'DevOps Enthusiast.'],
-          typeSpeed: 50,
+            strings: ['<i>Web Developer</i> ', 'DevOps Enthusiast.'],
+            typeSpeed: 50,
         });
-      </script>
+    </script>
 </body>
 
 </html>
