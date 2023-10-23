@@ -1,2 +1,2 @@
 # My_Portfolio
-this is my personal portfolio 
+this Repository contains the code of my personal portfolio 
